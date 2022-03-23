@@ -6,7 +6,8 @@ function Project() {
 
     return (
         <div className="container projects">
-            <h2>Here are some of my personal projects done so far</h2>
+            <h2>Projects</h2>
+            <h4>Here are some of my personal projects done so far</h4>
             <div className="row">
                 <div className="col">
                     <Card style={{ width: '18rem' }}>
