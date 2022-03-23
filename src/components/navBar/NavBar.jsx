@@ -8,10 +8,11 @@ function NavBar() {
       <Navbar variant="dark" expand='lg'>
         <Navbar.Brand href="#home">
           <img
-            src="/logo.svg"
+            src=""
             width="30"
             height="30"
             className="mx-4"
+            alt='logo'
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-nav" />

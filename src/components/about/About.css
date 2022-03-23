@@ -1,5 +1,8 @@
 .about {
     background-color: cadetblue;
-    font-family: 'Quando', cursive;
+    font-size: 1.2rem;
+    /* font-family: 'Quando', cursive; */
+    /* font-family: 'Sumana', serif; */
     /* font-family: 'Prompt', sans-serif; */
+    font-family: 'Sura', serif;
 }
