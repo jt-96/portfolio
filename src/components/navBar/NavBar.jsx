@@ -5,10 +5,10 @@ import './NavBar.css';
 function NavBar() {
 
   return (
-      <Navbar className="g-0" bg="light" sticky="top">
-        <Navbar.Brand href="#home">
+    <Navbar className="g-0 nav" sticky="top">
+        <Navbar.Brand className="disableBlur" href="#home" id="logo">
           <img
-            src=""
+            src="https://via.placeholder.com/30"
             width="30"
             height="30"
             className="mx-4"
@@ -16,7 +16,7 @@ function NavBar() {
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-nav" />
-        <Navbar.Collapse id="navbar-nav" className="justify-content-end mx-4">
+        <Navbar.Collapse id="navbar-nav" className="disableBlur justify-content-end mx-4">
           <Nav>
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#about">About</Nav.Link>
@@ -25,7 +25,7 @@ function NavBar() {
             <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
-      </Navbar>
+    </Navbar>
   )
 }
 
