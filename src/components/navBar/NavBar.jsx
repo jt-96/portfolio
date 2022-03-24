@@ -1,11 +1,11 @@
 import React from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
+import { Navbar, Nav, Container } from 'react-bootstrap';
+import './NavBar.css';
 
 function NavBar() {
 
   return (
-    <div className='md-12'>
-      <Navbar variant="dark" expand='lg'>
+      <Navbar className="" bg="light" sticky="top">
         <Navbar.Brand href="#home">
           <img
             src=""
@@ -26,7 +26,6 @@ function NavBar() {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-    </div>
   )
 }
 

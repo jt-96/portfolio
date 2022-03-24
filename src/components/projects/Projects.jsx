@@ -5,7 +5,7 @@ import './Projects.css';
 function Project() {
 
     return (
-        <div className="container projects my-3 py-3">
+        <div className="container projects my-3 py-3" id='projects'>
             <h2 className="py-2">Projects</h2>
             <p className="py-2">Here are some of my personal projects done so far.</p>
             <div className="py-3 d-flex flex-row justify-content-around">
