@@ -4,7 +4,7 @@ import './Footer.css';
 function Footer() {
     return (
         <div className="footer col text-center py-2">
-            <div className="row">
+            <div className="row g-0">
                 <span>Lorem ipsum dolor sit amet consectetur.</span>
                 <span>Lorem ipsum dolor sit amet.</span>
             </div>

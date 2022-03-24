@@ -5,7 +5,7 @@ import './NavBar.css';
 function NavBar() {
 
   return (
-      <Navbar className="" bg="light" sticky="top">
+      <Navbar className="g-0" bg="light" sticky="top">
         <Navbar.Brand href="#home">
           <img
             src=""
