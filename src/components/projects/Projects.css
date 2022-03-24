@@ -2,3 +2,8 @@
     background-color: cornflowerblue;
     font-family: 'Quando', cursive;
 }
+
+.anchor {
+    margin-top: -75px;
+    position: absolute;
+}

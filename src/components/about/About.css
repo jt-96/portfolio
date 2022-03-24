@@ -3,3 +3,8 @@
     font-size: 1.2rem;
     font-family: 'Quando', cursive;
 }
+
+.anchor {
+    margin-top: -75px;
+    position: absolute;
+}
