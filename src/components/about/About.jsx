@@ -1,15 +1,19 @@
 import React from 'react';
 import './About.css';
 
-function About(){
+function About() {
 
     return (
         <div className="container about my-3 py-3">
             <div className="anchor" id="about"></div>
             <h2 className="py-2">About Me</h2>
-            <p className="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit autem quibusdam reprehenderit atque voluptates?</p>
-            <p className="col">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi laboriosam, mollitia illum pariatur quaerat et possimus recusandae accusantium expedita ab, odio commodi, dolor ullam reprehenderit!</p>
-            <p className="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nisi iste maiores earum. Ab quidem cumque repudiandae iure necessitatibus numquam ipsa ad praesentium.</p>
+            <p className="col">Hello, my name is Jonathan, and I'm a full stack developer from Mendoza, Argentina.</p>
+            <p className="col">
+                Currently looking for my first experience in IT, I've been studying Programming since 2016, recently found an interest in web development, so here we are.
+            </p>
+            <p className="col">
+                I consider myself a responsable and respectful person, auto-didact, eager to learn and always grateful for a helping hand when needed.
+            </p>
         </div>
     )
 }
