@@ -4,13 +4,13 @@ import './Contact.css';
 function Contact() {
 
     return (
-        <div className="container contact">
-            <h2>Connect with Me</h2>
-            <div className="row">
-                    <span className='col'>Icon</span>
-                    <span className='col'>Icon</span>
-                    <span className='col'>Icon</span>
-                    <span className='col'>Icon</span>
+        <div className="container contact my-3 py-3">
+            <h2 className="my-2 py-2 text-center">Connect with Me</h2>
+            <div className="my-3 py-3 row justify-content-center text-center">
+                <span className='col-md-2'>Icon</span>
+                <span className='col-md-2'>Icon</span>
+                <span className='col-md-2'>Icon</span>
+                <span className='col-md-2'>Icon</span>
             </div>
         </div>
     )

@@ -5,11 +5,11 @@ import './Projects.css';
 function Project() {
 
     return (
-        <div className="container projects">
-            <h2>Projects</h2>
-            <h4>Here are some of my personal projects done so far</h4>
-            <div className="row">
-                <div className="col">
+        <div className="container projects my-3 py-3">
+            <h2 className="py-2">Projects</h2>
+            <p className="py-2">Here are some of my personal projects done so far.</p>
+            <div className="py-3 d-flex flex-row justify-content-around">
+                <div>
                     <Card style={{ width: '18rem' }}>
                         <Card.Img variant="top" src="holder.js/100px180" />
                         <Card.Body>
@@ -22,7 +22,7 @@ function Project() {
                         </Card.Body>
                     </Card>
                 </div>
-                <div className="col">
+                <div>
                     <Card style={{ width: '18rem' }}>
                         <Card.Img variant="top" src="holder.js/100px180" />
                         <Card.Body>
@@ -35,7 +35,7 @@ function Project() {
                         </Card.Body>
                     </Card>
                 </div>
-                <div className="col">
+                <div>
                     <Card style={{ width: '18rem' }}>
                         <Card.Img variant="top" src="holder.js/100px180" />
                         <Card.Body>

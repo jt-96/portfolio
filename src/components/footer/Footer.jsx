@@ -1,12 +1,14 @@
 import React from 'react';
 import './Footer.css';
 
-function Footer(){
-
+function Footer() {
+    // d-flex flex-column align-items-center
     return (
-        <div className="footer d-flex flex-column align-items-center">
-            <span>Lorem ipsum dolor sit amet consectetur.</span>
-            <span>Lorem ipsum dolor sit amet.</span>
+        <div className="footer col text-center py-2">
+            <div className="row">
+                <span>Lorem ipsum dolor sit amet consectetur.</span>
+                <span>Lorem ipsum dolor sit amet.</span>
+            </div>
         </div>
     )
 }
