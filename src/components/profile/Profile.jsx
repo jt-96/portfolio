@@ -4,7 +4,7 @@ import './Profile.css';
 function Profile() {
 
     return (
-        <div className="container profile my-3 py-3">
+        <div className="container profile my-3 py-3 px-4">
             <div className="anchor" id="profile"></div>
             <h2 className="py-2">Profile</h2>
             <p className="py-2">I'm based in MERN Stack and this are the tecnologies I used till now.</p>
