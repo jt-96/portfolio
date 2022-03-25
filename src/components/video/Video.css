@@ -3,15 +3,10 @@
   z-index: -1;
 }
 
-@media (min-height: 768px) {
+@media (max-width: 576px) {
   #bg-video {
-    width: 100vw;
     height: 100vh;
-  }
-}
-
-@media (min-height: 576px) {
-  #bg-video {
+    width: 100vw;
     object-fit: cover;
   }
 }
