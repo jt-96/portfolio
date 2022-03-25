@@ -1,18 +1,25 @@
 import React from "react";
 import { Card, Button } from 'react-bootstrap';
+import './Card.css';
 
-function CardProject() {
+function CardProject(props) {
 
     return (
         <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Img variant="top" src={`${process.env.PUBLIC_URL}` + props.project.image} />
             <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
-                </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <Card.Title>{props.project.name}</Card.Title>
+                <Card.Text>{props.project.description}</Card.Text>
+                <div className="row">
+                    <div className=" d-flex justify-content-around">
+                        <Button className="mr-2" variant="primary" href={props.project.projectLink} target="_blank" rel="noopener noreferrer">
+                            Check it Out
+                        </Button>
+                        <Button className="mx-2" variant="primary" href={props.project.gitLink} target="_blank" rel="noopener noreferrer">
+                            GitHub
+                        </Button>
+                    </div>
+                </div>
             </Card.Body>
         </Card>
     )
