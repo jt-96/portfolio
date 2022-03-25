@@ -11,7 +11,7 @@ function NavBar() {
             src={`${process.env.PUBLIC_URL}/assets/icons/logo.png`}
             width="30"
             height="30"
-            className="mx-4"
+            className="imgLogo"
             alt="logo"
           />
         </Navbar.Brand>
