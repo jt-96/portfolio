@@ -18,7 +18,7 @@
     {
         "id": 3,
         "name": "Digital Agency",
-        "description":  "Mockup Design fully made in Bootstrap",
+        "description":  "Mockup Design fully made in Bootstrap.",
         "projectLink": "https://jt-96.github.io/digitalAgency-Mockup",
         "gitLink": "https://github.com/jt-96/digitalAgency-Mockup",
         "image": "/assets/projects/digitalAgency.png"
