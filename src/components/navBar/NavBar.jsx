@@ -8,7 +8,7 @@ function NavBar() {
     <Navbar className="g-0 nav" sticky="top">
         <Navbar.Brand className="disableBlur" href="#home" id="logo">
           <img
-            src="https://via.placeholder.com/30"
+            src={`${process.env.PUBLIC_URL}/assets/icons/logo.png`}
             width="30"
             height="30"
             className="mx-4"
