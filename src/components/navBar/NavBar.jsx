@@ -5,7 +5,7 @@ import './NavBar.css';
 function NavBar() {
 
   return (
-    <Navbar className="g-0 nav" sticky="top">
+    <Navbar className="g-0 nav" sticky="top" variant="darker">
         <Navbar.Brand className="disableBlur" href="#home" id="logo">
           <img
             src={`${process.env.PUBLIC_URL}/assets/icons/logo.png`}
