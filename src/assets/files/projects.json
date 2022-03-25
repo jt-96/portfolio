@@ -3,7 +3,7 @@
         "id": 1,
         "name": "ToDoList App",
         "description":  "Web app for a ToDo List, allowing the user to add and delete chores, saving them in a Database on the cloud.",
-        "projectLink": "https://stormy-hamlet-40497.herokuapp.com/",
+        "projectLink": "https://todolistapp-40497.herokuapp.com/",
         "gitLink": "https://github.com/jt-96/ToDoListApp",
         "image": "/assets/projects/toDoListApp.png"
     },
