@@ -1,3 +1,18 @@
 .nav {
     backdrop-filter: blur(5px);
 }
+
+@media (min-width: 768px) {
+    .links {
+
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+
+@media (min-width: 576px) {
+    .links {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+}

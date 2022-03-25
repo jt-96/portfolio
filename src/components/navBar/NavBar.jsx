@@ -16,7 +16,7 @@ function NavBar() {
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-nav" />
-        <Navbar.Collapse id="navbar-nav" className="disableBlur justify-content-end mx-4">
+        <Navbar.Collapse id="navbar-nav" className="links disableBlur justify-content-end">
           <Nav>
             <Nav.Link className="text-dark" href="#home">Home</Nav.Link>
             <Nav.Link className="text-dark" href="#about">About</Nav.Link>
