@@ -5,7 +5,7 @@ import './NavBar.css';
 function NavBar() {
 
   return (
-    <Navbar className="g-0 nav" sticky="top">
+    <Navbar className="g-0 nav" expand="lg" sticky="top">
         <Navbar.Brand className="disableBlur" href="#home" id="logo">
           <img
             src={`${process.env.PUBLIC_URL}/assets/icons/logo.png`}
@@ -16,7 +16,7 @@ function NavBar() {
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-nav" />
-        <Navbar.Collapse id="navbar-nav" className="links disableBlur justify-content-end">
+        <Navbar.Collapse id="navbar-nav" className="links disableBlur justify-content-end text-center">
           <Nav>
             <Nav.Link className="text-dark" href="#home">Home</Nav.Link>
             <Nav.Link className="text-dark" href="#about">About</Nav.Link>
