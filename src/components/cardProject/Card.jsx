@@ -11,12 +11,12 @@ function CardProject(props) {
                 <Card.Title>{props.project.name}</Card.Title>
                 <Card.Text>{props.project.description}</Card.Text>
                 <div className="row">
-                    <div className="d-flex justify-content-around">
+                    <div className="d-flex justify-content-between">
                         <Button className="" variant="primary" href={props.project.projectLink} target="_blank" rel="noopener noreferrer">
-                            Check it Out
+                            Visit Page
                         </Button>
                         <Button className="" variant="primary" href={props.project.gitLink} target="_blank" rel="noopener noreferrer">
-                            GitHub
+                            GitHub Repo
                         </Button>
                     </div>
                 </div>
