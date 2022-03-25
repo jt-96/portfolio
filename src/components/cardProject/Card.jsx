@@ -5,17 +5,17 @@ import './Card.css';
 function CardProject(props) {
 
     return (
-        <Card style={{ width: "18rem" }}>
+        <Card className="col-md-3 my-3" style={{ width: "18rem" }}>
             <Card.Img variant="top" src={`${process.env.PUBLIC_URL}` + props.project.image} />
             <Card.Body>
                 <Card.Title>{props.project.name}</Card.Title>
                 <Card.Text>{props.project.description}</Card.Text>
                 <div className="row">
-                    <div className=" d-flex justify-content-around">
-                        <Button className="mr-2" variant="primary" href={props.project.projectLink} target="_blank" rel="noopener noreferrer">
+                    <div className="d-flex justify-content-around">
+                        <Button className="" variant="primary" href={props.project.projectLink} target="_blank" rel="noopener noreferrer">
                             Check it Out
                         </Button>
-                        <Button className="mx-2" variant="primary" href={props.project.gitLink} target="_blank" rel="noopener noreferrer">
+                        <Button className="" variant="primary" href={props.project.gitLink} target="_blank" rel="noopener noreferrer">
                             GitHub
                         </Button>
                     </div>

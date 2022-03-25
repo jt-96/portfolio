@@ -10,7 +10,7 @@ function Project() {
             <div className="anchor" id="projects"></div>
             <h2 className="py-2">Projects</h2>
             <p className="py-2">Here are some of my personal projects done so far.</p>
-            <div className="py-3 d-flex flex-row justify-content-around">
+            <div className="col-md-12 d-flex flex-row flex-wrap justify-content-around">
                     {
                         projectsJSON.map((project) => (
                             <CardProject project={project} key={project.id} />
