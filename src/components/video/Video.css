@@ -1,7 +1,17 @@
 #bg-video {
+  position: fixed;
+  z-index: -1;
+}
+
+@media (min-height: 768px) {
+  #bg-video {
     width: 100vw;
-    position: fixed;
-    z-index: -1;
     height: 100vh;
+  }
+}
+
+@media (min-height: 576px) {
+  #bg-video {
     object-fit: cover;
   }
+}
