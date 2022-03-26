@@ -1,5 +1,6 @@
+import React, { Suspense, lazy } from 'react';
 import './App.css';
-import Video from './components/video/Video';
+// import Video from './components/video/Video';
 import NavBar from './components/navBar/NavBar';
 import Intro from './components/intro/Intro';
 import About from './components/about/About';
@@ -9,17 +10,23 @@ import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 
 function App() {
+
+  const Video = lazy(() => import('./components/video/Video'))
+
   return (
-    <div className="App">
-      <Video />
-      <Intro />
-      <NavBar />
-      <About />
-      <Profile />
-      <Project />
-      <Contact />
-      <Footer />
-    </div >
+    <Suspense fallback={<div>Loading...</div>}>
+
+      <div className="App">
+        <Video />
+        <Intro />
+        <NavBar />
+        <About />
+        <Profile />
+        <Project />
+        <Contact />
+        <Footer />
+      </div >
+    </Suspense>
   );
 }
 
