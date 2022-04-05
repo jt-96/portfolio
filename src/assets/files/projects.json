@@ -10,8 +10,8 @@
     {
         "id": 2,
         "name": "Keeper App",
-        "description":  "Save your notes in KeeperApp, you can add and delete entries easily, based on Google Keep. <WIP>",
-        "projectLink": "https://www.google.com/search?q=Soon",
+        "description":  "Save your notes in KeeperApp, you can add and delete entries easily, based on Google Keep.",
+        "projectLink": "https://jt-96.github.io/keeperApp/",
         "gitLink": "https://github.com/jt-96/keeperApp",
         "image": "/assets/projects/keeperApp.png"
     },
