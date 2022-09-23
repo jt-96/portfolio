@@ -2,3 +2,8 @@
     font-family: 'Quando', cursive;
     background-color: #D4DFC7;
 }
+
+.qr {
+    height: 70px;
+    width: 50px;
+}
