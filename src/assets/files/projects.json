@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "ToDoList App",
-        "description":  "Web app for a ToDo List, allowing the user to add and delete chores, saving them in a Database on the cloud.",
+        "description":  "Web app for a ToDo List, allowing the user to add and delete chores, saving them in a Database on the cloud. (Currently in need of redeploy)",
         "projectLink": "https://todolistapp-40497.herokuapp.com/",
         "gitLink": "https://github.com/jt-96/ToDoListApp",
         "image": "/assets/projects/toDoListApp.png"
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "name": "Keeper App",
-        "description":  "Save your notes in KeeperApp, you can add and delete entries easily, based on Google Keep.",
+        "description":  "Save your notes in KeeperApp, you can add and delete entries easily, based on Google Keep. (Currently in need of redeploy)",
         "projectLink": "https://jt-96.github.io/keeperApp/",
         "gitLink": "https://github.com/jt-96/keeperApp",
         "image": "/assets/projects/keeperApp.png"
@@ -22,5 +22,21 @@
         "projectLink": "https://jt-96.github.io/digitalAgency-Mockup",
         "gitLink": "https://github.com/jt-96/digitalAgency-Mockup",
         "image": "/assets/projects/digitalAgency.png"
+    },
+    {
+        "id": 4,
+        "name": "M-Bot",
+        "description": "A simple bot for playing music in Discord, can add only Youtube links or query them, add playlists, skip or shuffle songs, etc.",
+        "projectLink": null,
+        "gitLink": "https://github.com/jt-96/m-bot",
+        "image": "/assets/projects/m-bot.png"
+    },
+    {
+        "id": 5,
+        "name": "Kilometro 12 - Market",
+        "description": "E-commerce for fruits and vegetables, including account creation, cart functionality, multiple filtering for available products, several payment methods, like Mercado Pago, admin control for orders, etc. (Currently in development)",
+        "projectLink": "https://km12-develop.netlify.app/",
+        "gitLink": null,
+        "image": "/assets/projects/km12.png"
     }
 ]

@@ -14,7 +14,7 @@ function App() {
   const Video = lazy(() => import('./components/video/Video'))
 
   return (
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={<div className='d-flex justify-content-center align-items-center vh-100'>Loading...</div>}>
 
       <div className="App">
         <Video />
