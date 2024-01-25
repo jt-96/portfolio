@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[537],{537:(o,e,t)=>{t.r(e),t.d(e,{default:()=>r});t(791);var s=t(184);const r=function(){return(0,s.jsx)("video",{id:"bg-video",autoPlay:!0,loop:!0,muted:!0,children:(0,s.jsx)("source",{src:"".concat("/portfolio","/assets/video/background.mp4"),type:"video/mp4"})})}}}]);
+//# sourceMappingURL=537.6736f832.chunk.js.map
