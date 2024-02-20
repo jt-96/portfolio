@@ -2,15 +2,15 @@
     {
         "id": 1,
         "name": "ToDoList App",
-        "description":  "Web app for a ToDo List, allowing the user to add and delete chores, saving them in a Database on the cloud. (Currently in need of redeploy)",
-        "projectLink": "https://todolistapp-40497.herokuapp.com/",
+        "description":  "Web app for a ToDo List, allowing the user to add and delete chores, saving them in a Database on the cloud.",
+        "projectLink": "https://todolistapp-oz6u.onrender.com/",
         "gitLink": "https://github.com/jt-96/ToDoListApp",
         "image": "/assets/projects/toDoListApp.png"
     },
     {
         "id": 2,
         "name": "Keeper App",
-        "description":  "Save your notes in KeeperApp, you can add and delete entries easily, based on Google Keep. (Currently in need of redeploy)",
+        "description":  "Save your notes in KeeperApp, you can add and delete entries easily, based on Google Keep.",
         "projectLink": "https://jt-96.github.io/keeperApp/",
         "gitLink": "https://github.com/jt-96/keeperApp",
         "image": "/assets/projects/keeperApp.png"
