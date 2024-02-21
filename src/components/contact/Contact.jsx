@@ -8,7 +8,7 @@ function Contact() {
         <div className="container contact my-3 py-3 px-4" id="contact">
             <h2 className="my-2 py-2 text-center contactTitle">Connect with Me</h2>
             <div className="flex-row text-center">
-                <a href={`${process.env.PUBLIC_URL}/assets/cv/Jonathan Torrico - CV.pdf`} target="_blank" rel="noopener noreferrer">
+                <a href={`${process.env.PUBLIC_URL}/assets/cv/Jonathan Torrico - ENG CV.pdf`} target="_blank" rel="noopener noreferrer">
                     <img className='my-5 px-2' src={`${process.env.PUBLIC_URL}/assets/contact/cv.png`} alt="View Curriculum Vitae" />
                 </a>
                 <a href="mailto:jetorrico@outlook.com" rel="noopener noreferrer">
